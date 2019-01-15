@@ -4,12 +4,13 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 
+import Slider from './Slider.js';
+
 const Repair = styled.div`
 	color: #ffffff;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 50px;
-	margin-top: 130px;
 	
 	span {
 		display: block;
@@ -53,7 +54,7 @@ class Main extends Component {
 					<CallButton>Отправить заявку!</CallButton>
 				</Col>
 				<Col lg={6} lgOffset={1}>
-					<p>jjj</p>
+					<Slider />
 				</Col>
 			</Row>
 		)

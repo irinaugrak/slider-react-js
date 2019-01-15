@@ -23,7 +23,7 @@ const MenuWrapper = styled.div`
 
 const MainWrapper = styled.main`
 	height: 600px;
-	paddgin-top: 130px;
+	padding-top: 130px;
 	background: url(${url}) no-repeat;
 	background-size: cover;
 `
